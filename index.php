@@ -38,8 +38,8 @@
   <p><a href="https://www.php.net/download-logos.php" target="_blank">PHP Logos and Icons</a></p>
 
   <!-- update upper limit when relevant -->
-  <?php for( $i = 5; $i <= 5; $i += 1) {  ?>
-    <a href="http://localhost/MyWebsite/pagepervideo/video_<?php echo $i; ?>.php">Video <?php echo $i; ?></a>
+  <?php for( $i = 5; $i <= 6; $i += 1) {  ?>
+    <p><a href="http://localhost/MyWebsite/pagepervideo/video_<?php echo $i; ?>.php">Video <?php echo $i; ?></a></p>
   <?php } ?>
 
   <!-- some PHP - shenanigans (not from the guide) -->
