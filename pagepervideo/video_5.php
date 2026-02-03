@@ -38,7 +38,7 @@
     echo "<br>";
     echo $_SERVER["REQUEST_METHOD"];
     echo "<br>-------------<br>";
-
+    echo "test change post re-install XAMPP"
   ?>
   
 </body>
