@@ -8,9 +8,9 @@
 </head>
 <body>
   <a href="http://localhost/MyWebsite/">home</a>
-  <?php echo "<h1>Video 5</h1>" ?>
+  <?php echo "<h1>5. Superglobal Variables</h1>" ?>
   <?php
-    // Devault initialized (shown in video 4)
+    // Default initialized (shown in video 4)
     $string = "";
     $int = 0;
     $float = 0;
@@ -19,5 +19,27 @@
     $array = [];
     $object = null;
   ?>
+
+  <?php 
+    echo "-------------<br>";
+    echo "\$_SERVER['DOCUMENT_ROOT']";
+    echo "<br>";
+    echo $_SERVER["DOCUMENT_ROOT"];
+    echo "<br>-------------<br>";
+    echo "\$_SERVER['PHP_SELF']";
+    echo "<br>";
+    echo $_SERVER["PHP_SELF"];
+    echo "<br>-------------<br>";
+    echo "\$_SERVER['SERVER_NAME']";
+    echo "<br>";
+    echo $_SERVER["SERVER_NAME"];
+    echo "<br>-------------<br>";
+    echo "\$_SERVER['REQUEST_METHOD']";
+    echo "<br>";
+    echo $_SERVER["REQUEST_METHOD"];
+    echo "<br>-------------<br>";
+
+  ?>
+  
 </body>
 </html>
