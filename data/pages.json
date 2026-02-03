@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "PHP in 60 Seconds: The Basics",
+    "video_link": "https://www.youtube.com/shorts/bXTspwWR9uY",
+    "location": "http://localhost/MyWebsite/otherpages/phpinsixtysec.php"
+  },
+  {
+    "id": 2,
+    "name": "PHP in 100 Seconds",
+    "video_link": "https://www.youtube.com/watch?v=a7_WFUlFS94",
+    "location": "http://localhost/MyWebsite/otherpages/phpinonehundredsec.php"
+  }
+]
