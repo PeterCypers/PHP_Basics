@@ -1,0 +1,67 @@
+* {
+  background-color: #0c0c0c;
+}
+
+div {
+  margin: 2rem;
+  width: 20rem;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: .3rem;
+}
+
+select, option, input, button {
+  background-color: #363636;
+  color: #E0E0E0;
+}
+
+input, select, option, button {
+  font-size: x-large;
+}
+
+p {
+  color: #E0E0E0;
+  font-size: x-large;
+  text-align: center;
+}
+
+.calc-error {
+  color: red;
+}
+
+input[placeholder]{
+  text-align: center;
+}
+
+select {
+  width: 2rem;
+  appearance: none;
+  text-align: center;
+}
+a, h1, small {
+  color: #E0E0E0;
+  margin: 1rem;
+}
+
+/* something in the below code removes the up/down arrows on the input:number */
+input[type="number"] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  display: none;
+}
+
+input[type="number"]:hover::-webkit-outer-spin-button,
+input[type="number"]:hover::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  display: none;
+}
