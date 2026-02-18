@@ -38,7 +38,7 @@
   <p><a href="https://www.php.net/download-logos.php" target="_blank">PHP Logos and Icons</a></p>
 
   <!-- update upper limit when relevant -->
-  <?php for( $i = 5; $i <= 15; $i += 1) {  ?>
+  <?php for( $i = 5; $i <= 22; $i += 1) {  ?>
     <p><a href="http://localhost/MyWebsite/pagepervideo/video_<?php echo $i; ?>.php">Video <?php echo $i; ?></a></p>
   <?php } ?>
 
